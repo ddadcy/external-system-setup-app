@@ -1,0 +1,22 @@
+
+.external-system-component {
+    .system-row {
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+            background-color: #f9fafb;
+        }
+    }
+
+    .action-button {
+        transition: color 0.2s ease-in-out;
+
+        &:hover {
+            color: #374151;
+        }
+
+        // &.delete-button:hover {
+        //     color: #dc2626;
+        // }
+    }
+}
